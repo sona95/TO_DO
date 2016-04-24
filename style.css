@@ -1,0 +1,76 @@
+.list{
+    font-size: 18px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.list h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.list ul {
+    border: 1px solid skyblue;
+    padding: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.list li {
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid #87ceeb;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.list .done {
+    text-decoration: line-through;
+    background: rgba(107, 190, 107, 0.8);
+}
+
+.list a.remove {
+    position: absolute;
+    line-height: 14px;
+    right: 5px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.68);
+    display: inline-block;
+    padding: 5px;
+}
+
+.list a.remove:hover{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.list form {
+    margin: 0 20px;
+}
+
+.list form  input {
+    width: 60%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #979797;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+form button {
+    width: 20%;
+    height: 32px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
